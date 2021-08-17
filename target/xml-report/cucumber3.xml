@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.038">
+    <testcase classname="Create_hotel_room" name="Creating_hotel_room_test" time="0.13">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given user connects to the database.........................................passed
+When user creates a new hotel with a "data".................................passed
+Then verify the hotel is created successfully...............................passed
+Then close the connection...................................................undefined
+]]>
+        </failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,1132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-26T16:41:21.582Z",
+        "line": 28,
+        "name": "TC_01_login_with_manager_profile",
+        "description": "",
+        "id": "user-should-be-able-to-reserve-room;tc-01-login-with-manager-profile;test-data;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7016429000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the application_login page",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.user_is_on_the_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 365603900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters manager_id \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223090000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters manager_password \"Manager1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager1!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5829699100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231009700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify login \"manager\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.verify_login_default_page_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3875209800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to create_room_reservation_page",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_navigates_to_create_room_reservation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 371799900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the IDUser \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_id_user(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 296157500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the IDHotel \"Sierra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sierra\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_id_hotel(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169293400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the price \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_price(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 502355800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters the date_start \"07/01/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"07/01/2021\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_start(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407639500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters the date_end \"07/03/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"07/03/2021\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_end(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223962000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the adult_amount \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_adult_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219382300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters the children_amount \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_children_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224535100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters the contact_name \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236440400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters the contact_phone \"(546) 345-6345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"(546) 345-6345\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_phone(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247040400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters the contact_email \"test@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@gmail.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199113000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters the notes \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_notes(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196766000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on the approved checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_approved_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194004000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on the is_paid checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_is_paid_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171986100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on the save_button",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.className: bootbox-body\u0027 (tried for 3 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:78)\r\n\tat stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:142)\r\n\tat ✽.user verifies the success_message \"RoomReservation was inserted successfully\"(file:///C:/Users/aatil/IdeaProjects/cucumber-framework-21/src/test/resources/features/day20_room_reservation_2.feature:24)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".bootbox\\-body\"}\n  (Session info: chrome\u003d91.0.4472.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-ELMD06V\u0027, ip: \u0027192.168.1.119\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.10\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\aatil\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51560}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1ef2ebe357bc94ce367ab051e3a65a56\n*** Element info: {Using\u003dclass name, value\u003dbootbox-body}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:78)\r\n\tat stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(Room_Reservation_Step_Defs.java:142)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\r\n\tat org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\r\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n",
+              "duration": 30168486900,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "user verifies the success_message \"RoomReservation was inserted successfully\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RoomReservation was inserted successfully\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@room_reservation_2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-26T16:42:13.040Z",
+        "line": 29,
+        "name": "TC_01_login_with_manager_profile",
+        "description": "",
+        "id": "user-should-be-able-to-reserve-room;tc-01-login-with-manager-profile;test-data;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1051482400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the application_login page",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.user_is_on_the_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206710100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters manager_id \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283347400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters manager_password \"Manager1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager1!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1727447300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153408500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify login \"manager\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.verify_login_default_page_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2498865800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to create_room_reservation_page",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_navigates_to_create_room_reservation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 253619800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the IDUser \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_id_user(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261315200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the IDHotel \"Krystel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Krystel\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_id_hotel(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147338000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the price \"250\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"250\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_price(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242612500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters the date_start \"07/01/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"07/01/2021\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_start(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311232100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters the date_end \"08/01/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"08/01/2021\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_end(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138348000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the adult_amount \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_adult_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130997200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters the children_amount \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_children_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164986900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters the contact_name \"My Boss\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Boss\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183001900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters the contact_phone \"(999) 345-6345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"(999) 345-6345\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_phone(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216406500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters the contact_email \"alone@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"alone@gmail.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195551900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters the notes \"Don\u0027t bother\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Don\u0027t bother\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_notes(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141995700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on the approved checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_approved_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156992400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on the is_paid checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_is_paid_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134939700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on the save_button",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1068651800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user verifies the success_message \"RoomReservation was inserted successfully\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RoomReservation was inserted successfully\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3757590500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@room_reservation_2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-26T16:42:26.504Z",
+        "line": 30,
+        "name": "TC_01_login_with_manager_profile",
+        "description": "",
+        "id": "user-should-be-able-to-reserve-room;tc-01-login-with-manager-profile;test-data;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5480368000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the application_login page",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.user_is_on_the_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165974800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters manager_id \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170409100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters manager_password \"Manager1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager1!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.user_enters_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4135271200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitions.Login_Step_Defs.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87513600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify login \"manager\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.Login_Step_Defs.verify_login_default_page_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3731539300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to create_room_reservation_page",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_navigates_to_create_room_reservation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 400062600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the IDUser \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_id_user(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 613155800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the IDHotel \"Karelle\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Karelle\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_id_hotel(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162365900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the price \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_price(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 332458900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters the date_start \"07/01/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"07/01/2021\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_start(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237807000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters the date_end \"07/02/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"07/02/2021\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_end(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148152900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the adult_amount \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_adult_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147273300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters the children_amount \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_children_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206516800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters the contact_name \"My Boss\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Boss\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219214000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters the contact_phone \"(999) 345-6345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"(999) 345-6345\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_phone(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186148800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters the contact_email \"both@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"both@gmail.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228805900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters the notes \"one day reservation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"one day reservation\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_notes(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133881100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on the approved checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_approved_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112656500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on the is_paid checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_is_paid_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132479300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on the save_button",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1334312800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user verifies the success_message \"RoomReservation was inserted successfully\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RoomReservation was inserted successfully\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1449449300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Google_Search_Step_Defs.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@room_reservation_2"
+          }
+        ]
+      }
+    ],
+    "name": "User_should_be_able_to_reserve_room",
+    "description": "",
+    "id": "user-should-be-able-to-reserve-room",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/day20_room_reservation_2.feature",
+    "tags": [
+      {
+        "name": "@room_reservation_2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

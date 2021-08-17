@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="216.701">
+    <testcase classname="Multiple_google_search" name="searching_word_capitals" time="109.941">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "<world_capital>".....................................passed
+Then verify the result has "paris"..........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_2" time="13.01">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "<world_capital>".....................................passed
+Then verify the result has "london".........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_3" time="18.741">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "<world_capital>".....................................passed
+Then verify the result has "berlin".........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_4" time="16.606">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "<world_capital>".....................................passed
+Then verify the result has "ankara".........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_5" time="8.936">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "<world_capital>".....................................passed
+Then verify the result has "baku"...........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search Functionality" name="TC01_Iphone Search" time="9.168">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+When user search for iPhone.................................................passed
+Then verify the result has iPhone...........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search Functionality" name="TC02_tea pot Search" time="16.674">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+And user search for tea pot.................................................passed
+Then verify the result has tea pot..........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search Functionality" name="TC02_flower Search" time="22.384">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+And user search for flower..................................................passed
+Then verify the result has flower...........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
